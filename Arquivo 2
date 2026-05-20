@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Arquivo 2 {
+public class ArquivoJava {
     /*
      * Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base
      * neste valor, crie um vetor do tipo inteiro.
@@ -20,7 +20,11 @@ public class Arquivo 2 {
      * Vetor origem: [0][4][2][6][3]
      * Vetor ordenado: [0][2][3][4][6]
      * 
+     * 2. Entrada: 
      * 
+     * 3. Saída:
+     * 
+     * 4. Gordura
      * 
      */
 
@@ -47,3 +51,6 @@ public class Arquivo 2 {
 
     }
 }
+/**
+ * 5. Casos de teste
+ */
