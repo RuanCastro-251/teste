@@ -37,12 +37,19 @@ public class Uni6Exe07 {
             System.out.println("Digite um número Inteiro: ");
             vetorInteiro[i] = valorRepetido = teste.nextInt();
 
-        }
-        for (int i = 0; i < vetorInteiro.length; i++) {
-            if (vetorInteiro[i] != valorRepetido) {
-                System.out.println("Insira um novo valor: ");
+            boolean existe = true;
+            for (int j = 0; j < i; j++) {
+                if (vetorInteiro[i] == valorRepetido) {
+                    existe = true;
+                    break;
+
+                }
 
             }
+            if (existe) {
+                System.out.println("Valor Repetido! \n Insira outro valor: ");
+            }
+
         }
 
     }
