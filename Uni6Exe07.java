@@ -6,9 +6,12 @@ public class Uni6Exe07 {
      * neste valor, crie um vetor do tipo inteiro.
      * 
      * Em seguida, solicite ao usuário
-     * para digitar um número inteiro várias vezes, até preencher o vetor. Esse
+     * para digitar um número inteiro várias vezes, até preencher o vetor.
+     * Esse
      * número deverá ser armazenado no vetor caso ainda não exista, e se o valor já
-     * existir deve ser pedido um novo valor. Isto é, se o usuário informar o número
+     * existir deve ser pedido um novo valor.
+     * 
+     * Isto é, se o usuário informar o número
      * 2 e já existir o número 2 em alguma posição do vetor, o número não deve ser
      * adicionado. Após ter adicionado todos os números dentro do vetor, o mesmo
      * deve ser ordenado. Para isso reordene os elementos internos do vetor de modo
@@ -19,12 +22,25 @@ public class Uni6Exe07 {
      */
 
     public static void main(String[] args) {
-        Scanner teste=new Scanner(System.in);
+        Scanner teste = new Scanner(System.in);
+        int valorRepetido = 0;
 
         System.out.println("Informe o valor inteiro(limitado a 20 posições):  ");
-        int valorInteiro=teste.nextInt();
+        int valorInteiro = teste.nextInt();
 
-        int vetorInteiro[]= new int[20];
+        int vetorInteiro[] = new int[valorInteiro];
+
+        for (int i = 0; i < vetorInteiro.length; i++) {
+            System.out.println("Digite um número Inteiro: ");
+            vetorInteiro[i] = valorRepetido = teste.nextInt();
+
+        }
+        for (int i = 0; i < vetorInteiro.length; i++) {
+            if (vetorInteiro[i] != valorRepetido) {
+                System.out.println("Insira um novo valor: ");
+
+            }
+        }
 
     }
 }
