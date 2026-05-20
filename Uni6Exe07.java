@@ -19,6 +19,9 @@ public class Uni6Exe07 {
      * 
      * Vetor origem: [0][4][2][6][3]
      * Vetor ordenado: [0][2][3][4][6]
+     * 
+     * 
+     * 
      */
 
     public static void main(String[] args) {
