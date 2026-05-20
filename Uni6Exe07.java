@@ -42,7 +42,7 @@ public class Uni6Exe07 {
             if (vetorInteiro[i] != valorRepetido) {
                 System.out.println("Insira um novo valor: ");
 
-            }asddsasaddsaadsdasdasasd
+            }
         }
 
     }
