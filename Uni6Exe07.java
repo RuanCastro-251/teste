@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class Uni6Exe07 {
     /*
      * Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base
-     * neste valor, crie um vetor do tipo inteiro. 
+     * neste valor, crie um vetor do tipo inteiro.
+     * 
      * Em seguida, solicite ao usuário
      * para digitar um número inteiro várias vezes, até preencher o vetor. Esse
      * número deverá ser armazenado no vetor caso ainda não exista, e se o valor já
@@ -16,6 +19,12 @@ public class Uni6Exe07 {
      */
 
     public static void main(String[] args) {
+        Scanner teste=new Scanner(System.in);
+
+        System.out.println("Informe o valor inteiro(limitado a 20 posições):  ");
+        int valorInteiro=teste.nextInt();
+
+        int vetorInteiro[]= new int[20];
 
     }
 }
