@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Uni6Exe07 {
@@ -37,7 +38,7 @@ public class Uni6Exe07 {
             System.out.println("Digite um número Inteiro: ");
             valorRepetido = teste.nextInt();
 
-            boolean existe = true;
+            boolean existe = false;
             for (int j = 0; j < i; j++) {
                 if (vetorInteiro[j] == valorRepetido) {
                     existe = true;
@@ -48,12 +49,19 @@ public class Uni6Exe07 {
             }
             if (existe) {
                 System.out.println("Valor Repetido! \nInsira outro valor: ");
-                valorRepetido = teste.nextInt();
+                i--;
             } else {
                 vetorInteiro[i] = valorRepetido;
             }
 
         }
+        Arrays.sort(vetorInteiro);
+
+        System.out.println("\nVetor Ordenado:");
+        for(int v : vetorInteiro){
+            System.out.println("["+ v + "] ");
+        }
+        teste.close();
 
     }
 }
