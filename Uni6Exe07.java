@@ -65,3 +65,15 @@ public class Uni6Exe07 {
 
     }
 }
+/**
+ * 5. Casos de teste:
+ * a. Entrada: 5, 0, 4, 2, 6, 3
+ *    Saída: Vetor ordenado: [0][2][3][4][6]
+ * b. Entrada: 4, 10, 5, 10, 3
+ *   Saída: Valor Repetido! \nInsira outro valor:
+ * c. Entrada: 3, 1, 1, 2
+ *  Saída: Valor Repetido! \nInsira outro valor:
+ * d. Entrada: 6, 9, 8, 7, 5, 4
+ * Saída: Vetor ordenado: [4][5][7][8][9]
+ * 
+ */
