@@ -20,11 +20,12 @@ public class ArquivoJava {
      * Vetor origem: [0][4][2][6][3]
      * Vetor ordenado: [0][2][3][4][6]
      * 
-     * 2. Entrada: 
+     * 2. Entrada: valores reais(até 20 posições)
      * 
-     * 3. Saída:
+     * 3. Saída:  vetor origem e vetor ordenado
      * 
-     * 4. Gordura
+     * 4. Gordura: Com base neste valor,  Em seguida, Esse número deverá ser, Isto é
+     * 
      * 
      */
 
@@ -59,5 +60,5 @@ public class ArquivoJava {
     }
 }
 /**
- * 5. Casos de teste
+ * 5. Casos de teste:
  */
