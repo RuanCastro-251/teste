@@ -35,11 +35,11 @@ public class Uni6Exe07 {
 
         for (int i = 0; i < vetorInteiro.length; i++) {
             System.out.println("Digite um número Inteiro: ");
-            vetorInteiro[i] = valorRepetido = teste.nextInt();
+            valorRepetido = teste.nextInt();
 
             boolean existe = true;
             for (int j = 0; j < i; j++) {
-                if (vetorInteiro[i] == valorRepetido) {
+                if (vetorInteiro[j] == valorRepetido) {
                     existe = true;
                     break;
 
@@ -47,7 +47,10 @@ public class Uni6Exe07 {
 
             }
             if (existe) {
-                System.out.println("Valor Repetido! \n Insira outro valor: ");
+                System.out.println("Valor Repetido! \nInsira outro valor: ");
+                valorRepetido = teste.nextInt();
+            } else {
+                vetorInteiro[i] = valorRepetido;
             }
 
         }
