@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Uni6Exe07 {
-    /*
+ /*
      * Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base
      * neste valor, crie um vetor do tipo inteiro.
      * 
@@ -21,6 +21,11 @@ public class Uni6Exe07 {
      * Vetor origem: [0][4][2][6][3]
      * Vetor ordenado: [0][2][3][4][6]
      * 
+     * 2. Entrada: valores reais(até 20 posições)
+     * 
+     * 3. Saída:  vetor origem e vetor ordenado
+     * 
+     * 4. Gordura: Com base neste valor,  Em seguida, Esse número deverá ser, Isto é
      * 
      * 
      */
@@ -58,8 +63,8 @@ public class Uni6Exe07 {
         Arrays.sort(vetorInteiro);
 
         System.out.println("\nVetor Ordenado:");
-        for(int v : vetorInteiro){
-            System.out.println("["+ v + "] ");
+        for (int v : vetorInteiro) {
+            System.out.println("[" + v + "] ");
         }
         teste.close();
 
